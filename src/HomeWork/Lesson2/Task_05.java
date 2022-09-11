@@ -11,9 +11,9 @@ public class Task_05 {
         double n = scanner.nextDouble();
 
         if (n % 1 != 0) {
-            System.out.println("Число" + n + " имеет вещественную часть");
+            System.out.println("Число " + n + " имеет вещественную часть");
         } else if (n % 1 == 0) {
-            System.out.println("Число" + n + " не имеет вещественной части");
+            System.out.println("Число " + n + " не имеет вещественной части");
         }
     }
 }
