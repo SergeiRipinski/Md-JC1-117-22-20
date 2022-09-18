@@ -12,7 +12,7 @@ public class Task_05 {
 
         if (n % 1 != 0) {
             System.out.println("Число " + n + " имеет вещественную часть");
-        } else if (n % 1 == 0) {
+        } else {
             System.out.println("Число " + n + " не имеет вещественной части");
         }
     }
